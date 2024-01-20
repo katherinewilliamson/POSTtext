@@ -4,4 +4,4 @@ To use this program. the script file is run via the command line with the uri, f
 
 SYNTAX:
 
-./run.py -d /user/directory path -f "list, of, fields, separated, by commas" -uri "http://exampleapi/"
+./run.py -d /user/directory_path -f "list, of, fields, separated, by commas" -uri "http://exampleapi/"
