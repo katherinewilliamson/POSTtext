@@ -34,7 +34,7 @@ def dataparse(datafile):
 def postrequest(requestData):
     response = requests.post(uri, json=requestData)
     if response.ok:
-        print(f"Request completed successfully for {len(requestData)} files.")
+        print("Request completed successfully")
     else:
         print(f"Request failed with status code {response.status_code}")
 
